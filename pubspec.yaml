@@ -1,0 +1,42 @@
+name: expensemate
+description: A complete expense tracking Flutter app using SQLite.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.0
+  path_provider: ^2.1.1
+  shared_preferences: ^2.2.1
+  intl: ^0.19.0
+  fl_chart: ^0.63.0
+  csv: ^5.0.2
+  image_picker: ^1.0.4
+  permission_handler: ^11.0.1
+  provider: ^6.0.5
+  pdf: ^3.10.4
+  printing: ^5.11.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app_icon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/welcome_image.png
+    - assets/images/user.png
+    - assets/images/app_icon.png
